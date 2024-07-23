@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #F4F2DD; 
+    font-size: 2rem; 
+    font-family: 'Staatliches', sans-serif; 
+
+}
+
+header {
+    width: 100%;
+    padding-top: 1.25em;
+    font-size: 2.25rem; 
+    color: #21409a;
+    text-align: center;
+    flex: 0 0 10%;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.5rem; 
+    width: 100%; 
+    color: #be1e2d;
+    text-align: center;
+    flex: 0 0 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 15%;
+    flex-wrap: wrap;
+}
+
+footer a {
+    padding: 0 10rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:visited {
+    color: #21409a;
+}
+
+footer a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+    footer a {
+        padding: 0 0.5rem;
+    }
+
+    main {
+        font-size: 3rem;
+    }
+
+    header {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    footer a {
+        padding: 0 0.25rem;
+        font-size: 1rem;
+    }
+
+    main {
+        font-size: 2.5rem;
+    }
+
+    header {
+        font-size: 1.5rem;
+    }
+}
