@@ -1,2 +1,1 @@
-# super_simple_personal_website
-My super simple fun website
+My super simple fun website (click anywhere to change colors)
