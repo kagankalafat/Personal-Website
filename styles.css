@@ -86,4 +86,10 @@ footer a:hover {
     header {
         font-size: 1.5rem;
     }
+    
+}
+@media (max-width: 450px) {
+    main {
+        height: 100dvh;
+    }
 }
