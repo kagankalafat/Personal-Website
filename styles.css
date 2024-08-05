@@ -89,7 +89,8 @@ footer a:hover {
     
 }
 @media (max-width: 450px) {
-    main {
-        height: 100dvh;
+    footer {
+        padding-bottom: 15%;
+
     }
 }
